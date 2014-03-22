@@ -1,24 +1,72 @@
 <!DOCTYPE html>
 <html>
+<head>
+<style>
+div.top
+{
+width:100%;
+background:#8db8ed;
+
+margin:0px;
+height:20%;
+padding:0px;
+margin:0px;
+border:0px;
+top:0px;
+left:0px;
+position: absolute;
+}
+img.logo
+{
+padding:20px;
+
+
+}
+table,th,td
+{
+border:1px solid black;
+border-collapse:collapse;
+font-family:"Times New Roman", Times, serif;
+font-size:30pt;
+margin-left:auto;
+margin-right:auto;
+text-align:left;
+}
+tr.header
+{
+background:#666666;
+color:white;
+}
+td.order
+{
+text-align:center;
+}
+
+</style>
+</head>
 <body>
 
-<table border="1" style="width:300px">
-<tr>
-  <td>Sean Smith</td>
-  <td>4</td>		
-  <td>6503158040</td>
+<div class="top">
+<img class="logo" src="Design/logo-01.png"></img>
+&nbsp</div>
+<div>
+<table style="width:300px">
+<tr class="header">
+  <td class="order">Order</td>
+  <td>Name</td>		
+  <td>Number</td>
   </tr>
 <tr>
-  <td>Gia Ding</td>
-  <td>2</td>		
-  <td>6503158040</td>
+  <td>1</td>
+  <td>Eve Jackson</td>		
+  <td>650-315-8040</td>
 </tr>
 <tr>
-  <td>John Doe</td>
-  <td>2</td>		
-  <td>6173255873</td>
+  <td>2</td>
+  <td>John Doe</td>		
+  <td>617-324-9866</td>
 </tr>
 </table>
-
+</div>
 </body>
 </html>
