@@ -15,22 +15,28 @@ position: relative;
 
 div.input
 {
-width:100%;
-height:25%;
-position: relative;
-padding:10px;
-}
-.name {
 
-    background:#FFFFFF url(Design/png/name.png) no-repeat 4px 4px;
+left:360px;
+position:relative;
+padding:none;
+background-color: transparent;
+}
+
+.name {
+    background: url(Design/png/name.png) no-repeat 4px 4px;
     padding:4px 4px 4px 173px;
     height:52px;
+    border:none;
+    background-color: transparent;  
 }​
-.phone {
-	background-image:url(Design/png/phone.png);
+
+.phone{
+    background: url(Design/png/phone.png) no-repeat 4px 4px;
     padding:4px 4px 4px 173px;
     height:52px;
-}​
+    border:none;
+    background-color: transparent;  
+}
 
 div.table
 {

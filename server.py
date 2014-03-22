@@ -2,19 +2,19 @@ import redis
 import string
 import json
 
-#from twilio.rest import TwilioRestClient
+from twilio.rest import TwilioRestClient
  
 
-host,port = '155.41.116.171',6379
+host,port = '155.41.93.4',6379
 
 r = redis.Redis(host,port,db=0)
 numPeople = 1
 
 
 dict = {'Name':"Sean Smith", 'Party': 4, 'Phone': '6503158040'}
-dict1 = {'Name':"Sean Smith", 'Party': 4, 'Phone': '6503158040'}
-dict2 = {'Name':"Sean Smith", 'Party': 4, 'Phone': '6503158040'}
-dict3 = {'Name':"Sean Smith", 'Party': 4, 'Phone': '6503158040'}
+dict1 = {'Name':"John Luc", 'Party': 4, 'Phone': '6503158040'}
+dict2 = {'Name':"Gia Ding", 'Party': 4, 'Phone': '6179716177'}
+dict3 = {'Name':"Justin", 'Party': 4, 'Phone': '2406728514'}
 dict4 = {'Name':"Sean Smith", 'Party': 4, 'Phone': '6503158040'}
 
 def add(d):
@@ -59,10 +59,21 @@ add(dict)
 
 add(dict1)
 
-add(dict2)
-
 add(dict3)
+
+add(dict2)
 
 add(dict4)
 list  = getList()
 prettyPrint(list)
+x = dequeue()
+print()
+
+list  = getList()
+prettyPrint(list)
+dequeue()
+
+print()
+list  = getList()
+prettyPrint(list)
+dequeue()

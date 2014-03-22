@@ -10,11 +10,16 @@
 <form action="demo_form.asp">
 
 <input type="text" name="Name" value="Name" class="name">
-<input type="text" name="PartySize" value="Party size" class="phone">
+<input type="text" name="Name" value="Name" class="phone">
+<input type="text" name="phone" value="Party size" class="phone">
 <input type="text" name="Phone" value="Cell Number" class="size" src="Design/png/phone.png">
-
-<input type="image" value="Submit" class="submit" src="Design/png/submit.png" onclick="Design/png/submit_active.png">
+<input type="button" src="Design/png/submit.png" >Submit</button>
 </form>
+
+
+</div>
+<div id="txtCDInfo">
+<button onclick="loadXMLDoc('cd_catalog.xml')">submit</button>
 </div>
 <div class="table">
 <table >
@@ -24,9 +29,9 @@
   <td class="Number">Number</td>
   </tr>
 <tr>
-  <td>1</td>
-  <td>Eve Jackson</td>		
-  <td>650-315-8040</td>
+  <td id="myDiv">1</td>
+  <td id="myDiv2">Eve Jackson</td>		
+  <td class="mydiv3">650-315-8040</td>
 </tr>
 <tr>
   <td>2</td>
