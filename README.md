@@ -8,3 +8,5 @@ This app ensures that you never miss your table. Rather than waiting in a crowde
 ![login screen](https://raw.githubusercontent.com/sean-smith/ReadyTable/master/Design/screenshots/Homepage.png)
 ![queue screen](https://raw.githubusercontent.com/sean-smith/ReadyTable/master/Design/screenshots/User%20Page.png)
 ![send text](https://raw.githubusercontent.com/sean-smith/ReadyTable/master/Design/screenshots/Message%20Page.png)
+
+The app was built with Heroku.
